@@ -243,14 +243,6 @@ export function Login() {
           )}
         </Button>
       </div>
-      {/* <div className="d-grid mb-10">
-        <Button
-          className={`${styles.buttonTeams} w-100`}
-          onClick={() => console.log("ingreso por teams")}
-          icon={<Icon viewBox="0 0 48 48" size={24} name={IconMicroTeams} />}>
-          Ingresar con Microsoft Teams
-        </Button>
-      </div> */}
     </div>
   );
 }
