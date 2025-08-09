@@ -1,0 +1,5 @@
+.container { margin-bottom: 1rem; }
+.inputRow { display: flex; gap: 0.5rem; align-items: center; }
+.error { color: red; font-size: 0.875rem; }
+.tagsList { margin-top: 0.5rem; display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.tag { background: #eee; padding: 0.25rem 0.5rem; border-radius: 0.25rem; display: flex; align-items: center; gap: 0.25rem; }

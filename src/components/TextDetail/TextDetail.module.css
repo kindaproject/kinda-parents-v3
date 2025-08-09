@@ -1,0 +1,20 @@
+
+.textDetail {
+    display: flex;
+    width: 100%;
+    gap: 0.5rem;
+    flex-wrap: wrap;         
+  }
+  
+  .textDetailLabel {
+    flex: 0 0 150px;           /* ancho fijo (o mínimo) para todas las labels */
+    font-weight: 500;
+    color: var(--c_whiteV4);
+  }
+  
+  .textDetailAnswer {
+    flex: 1;                   /* ocupa el resto del espacio */
+    word-break: break-all;     /* parte palabras largas (emails) donde haga falta */
+    white-space: normal;       
+  }
+  

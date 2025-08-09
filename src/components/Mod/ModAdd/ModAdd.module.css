@@ -1,0 +1,52 @@
+.responsiveWrap {
+  display: flex;
+  gap: 1rem;
+  /* align-items: flex-end; */
+   align-items: flex-start;
+
+  /* por defecto sin wrap */
+  flex-wrap: nowrap;
+
+  @media (max-width: 767px) {
+    /* solo en móvil wrap */
+    flex-wrap: wrap;
+  }
+}
+.quickGuide {
+    width: 100%;
+  }
+  @media (min-width: 992px) {
+    .quickGuide {
+      width: auto;
+      max-width: 350px;
+    }
+  }
+  
+
+    
+  .skeleton {
+    display: block;
+    background: linear-gradient(
+      to right,
+      #e2e2e2 0%,
+      #f6f6f6 50%,
+      #e2e2e2 100%
+    );
+    background-size: 400px 100%;
+    border-radius: 4px;
+    animation: shimmer 1.2s infinite;
+  }
+
+  .darkSkeleton {
+    display: block;
+    background: linear-gradient(
+      to right,
+      #2B2B40 0%,
+      #3A3A56 50%,
+      #2B2B40 100%
+    );
+    background-size: 400px 100%;
+    border-radius: 4px;
+    animation: shimmer 1.2s infinite;
+     
+  }

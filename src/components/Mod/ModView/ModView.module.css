@@ -1,0 +1,44 @@
+/* ModView.css */
+@keyframes shimmer {
+    0% { background-position: -200px 0; }
+    100% { background-position: 200px 0; }
+  }
+  
+  .skeleton {
+    display: block;
+    background: linear-gradient(
+      to right,
+      #e2e2e2 0%,
+      #f6f6f6 50%,
+      #e2e2e2 100%
+    );
+    background-size: 400px 100%;
+    border-radius: 4px;
+    animation: shimmer 1.2s infinite;
+  }
+
+  .darkSkeleton {
+    display: block;
+    background: linear-gradient(
+      to right,
+      #2B2B40 0%,
+      #3A3A56 50%,
+      #2B2B40 100%
+    );
+    background-size: 400px 100%;
+    border-radius: 4px;
+    animation: shimmer 1.2s infinite;
+     
+  }
+
+
+
+  .textDetail {
+    & > div:nth-child(2) {
+      /* background-color: antiquewhite; */
+      max-width: 700px;
+       white-space: normal; /* Permite saltos de línea naturales */
+    word-break: break-word; /* Evita que palabras largas se desborden */
+    overflow-wrap: anywhere; /* Fuerza a que se ajuste en contenedores pequeños */
+    }
+  }

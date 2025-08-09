@@ -1,0 +1,57 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"); */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import "tailwindcss";
+
+:root {
+  --c_white: #ffffff;
+  --c_whiteV1: #fafafa;
+  --c_whiteV2: #eeeeee;
+  --c_whiteV3: #c7c7c7;
+  --c_whiteV4: #6e6f71;
+
+  --c_black: #000000;
+  --c_blackV1: #111111;
+  --c_blackV2: #222222;
+  --c_blackV3: #333333;
+
+  --c_blue: #00263d;
+  --c_blueV1: #004d71;
+  --c_blueV2: #f2f6f8;
+
+  --c_gold: #8d734a;
+  --c_goldV1: #c6aa76;
+  --c_error: #ef4137;
+
+  --c_wGreen: #3bb34a;
+  --c_wGreenV1: #8cc541;
+  --c_wOrange: #f69321;
+  --c_wYellow: #fcee21;
+  --c_wBluelight: #27b0e5;
+  --c_wPurple: #c51b8b;
+  --c_wRed: #ef4137;
+
+  --c_kOrangeV1: #fab816;
+  --c_kBlue: #1d76bb;
+
+  --sxXl: 34px;
+  --sxL: 28px;
+  --sL: 20px;
+  --mD: 16px;
+  --sS: 12px;
+  --sSm: 10px;
+  --sM: 8px;
+  --xs: 4px;
+
+  --f_family:"Inter","Helvetica", "sans-serif";
+  
+}
+
+body {
+  font-family: var(--f_family) !important;
+}
+p {
+  margin-bottom: 0px !important;
+}
+
+

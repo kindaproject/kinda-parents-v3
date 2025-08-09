@@ -1,0 +1,13 @@
+.buttonTeams {
+    background-color: rgba(98, 100, 167, 0.6) !important;
+    padding: 10px;
+    border-radius: 0.475rem;
+    font-weight: 500;
+    line-height: 1.5;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.buttonTeams:hover {
+    color: var(--c_white) !important;
+    background-color: blueviolet !important;
+}
