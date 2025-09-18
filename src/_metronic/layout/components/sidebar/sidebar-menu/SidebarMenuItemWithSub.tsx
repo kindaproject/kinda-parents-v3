@@ -40,7 +40,7 @@ const SidebarMenuItemWithSub: React.FC<Props & WithChildren> = ({
             <KTIcon
               iconName={icon}
               className="fs-2"
-              style={{ color: isActive ? "var(--c_wBluelight)" : "white" }}
+              style={{ color: isActive ? "var(--c_goldV1)" : "white" }}
             />
           </span>
         )}
@@ -48,7 +48,7 @@ const SidebarMenuItemWithSub: React.FC<Props & WithChildren> = ({
           <i className={clsx("bi fs-3", fontIcon)}></i>
         )}
         <span
-          style={{ color: isActive ? "var(--c_wBluelight)" : "white" }}
+          style={{ color: isActive ? "var(--c_goldV1)" : "white" }}
           className="menu-title">
           {title}
         </span>

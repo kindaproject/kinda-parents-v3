@@ -29,7 +29,7 @@ const MasterLayout = () => {
         <div
           className="app-page flex-column flex-column-fluid"
           id="kt_app_page">
-          <HeaderWrapper />
+          {/* <HeaderWrapper /> */}
           <div
             className="app-wrapper flex-column flex-row-fluid"
             id="kt_app_wrapper">

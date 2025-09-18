@@ -35,12 +35,9 @@ const SidebarMenuItem: FC<Props & WithChildren> = ({
           </span>
         )}
         {icon && app?.sidebar?.default?.menu?.iconType === "svg" && (
-          <span
-            // style={{ color: isActive ? "var(--c_blueV1)" : "white" }}
-            className="menu-icon">
-            {" "}
+          <span className="menu-icon">
             <KTIcon
-              style={{ color: isActive ? "var(--c_wBluelight)" : "white" }}
+              style={{ color: isActive ? "var(--c_goldV1)" : "white" }}
               iconName={icon}
               className={`fs-2`}
             />
@@ -50,7 +47,7 @@ const SidebarMenuItem: FC<Props & WithChildren> = ({
           <i className={clsx("bi fs-3", fontIcon)}></i>
         )}
         <span
-          style={{ color: isActive ? "var(--c_wBluelight)" : "white" }}
+          style={{ color: isActive ? "var(--c_goldV1)" : "white" }}
           className="menu-title">
           {title}
         </span>

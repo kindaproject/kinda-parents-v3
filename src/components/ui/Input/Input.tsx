@@ -75,12 +75,12 @@ const Input: React.FC<InputProps> = ({
       onPaste={handlePaste}
       sx={{
         "& .MuiInputBase-root": {
-          color: "var(--cWhite)", // color del texto
+          color: "var(--c_white)", // color del texto
           fontWeight: 300,
           fontFamily: "var(--f_family)",
         },
         "& .MuiInputLabel-root": {
-          color: "var(--cWhite)", // color del label
+          color: "var(--c_white)", // color del label
           fontWeight: 700,
           fontFamily: "var(--f_family)",
           letterSpacing: "1px",
@@ -100,14 +100,12 @@ const Input: React.FC<InputProps> = ({
           color: "#d32f2f", // color del texto de error
         },
         "& .MuiInputLabel-root.Mui-focused": {
-          color: "var(--cWhite)",
+          color: "var(--c_white)",
         },
       }}
       slotProps={{
         input: {
-          startAdornment: iconLeft && (
-            <span style={{ marginRight: "8px" }}>{iconLeft}</span>
-          ),
+          startAdornment: iconLeft && <span>{iconLeft}</span>,
           endAdornment: iconRight && (
             <span style={{ marginLeft: "8px" }}>{iconRight}</span>
           ),
